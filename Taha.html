@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/v5.15.3/css/pro.min.css">
+
+    <title>Hello, world!</title>
+</head>
+<body>
+<div class="container">
+
+
+    <div class="row mt-5">
+        <button class="btn btn-primary" data-toggle="modal" data-target="#loginForm" >
+            <i class="fa fa-user"></i>
+            Login</button>
+
+        <div class="modal fade" id="loginForm" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Kullanıcı Girişi</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="recipient-name1" class="col-form-label">Email</label>
+                                <input type="text" class="form-control" id="recipient-name1">
+                            </div>
+                            <div class="form-group">
+                                <label for="recipient-name" class="col-form-label">Password</label>
+                                <input type="password" class="form-control" id="recipient-name">
+                            </div>
+
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Kapat</button>
+                        <button type="button" class="btn btn-primary">Gönder</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="row mt-5">
+        <div class="col-4"></div>
+        <div class="col-4">
+            <div class="card">
+                <div class="card-header">
+                    <div class="card-img">
+                        <img src="img/bg.gif" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">Lorem ipsum</h3>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid aut quos.
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <!--     <button type="button" class="btn btn-success">Detay</button>-->
+                    <a href="#" class="btn btn-success" data-toggle="modal" data-target="#exampleModalCenter">Detay</a>
+                    <a href="#" class="btn btn-primary float-right">
+                        <i class="fa fa-shopping-basket"></i>
+                        Sepete Ekle</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-4"></div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-12">
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                 aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">Ürün Detay</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            test
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Kapat</button>
+                            <button type="button" class="btn btn-primary">Kaydet</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+</html>
