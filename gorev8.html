@@ -11,66 +11,250 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 
     <title>Hello, world!</title>
+    <style type="text/css">
+
+        #ust {
+            width: 100%;
+            height: 550px;
+            background-image:url(img/unnamed.jpg);
+
+        }
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+
+    </style>
 </head>
 <body>
-<div>
-    <footer>
-        <div class="row bg-secondary" >
-            <div class="col">
-                <h2>Otelimizin Şubeleri</h2>
-                <hr>
-                <table class="table bg-white" >
-                    <thead>
-                    <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">Şubeler</th>
-                        <th scope="col">Çalıştığı Dönemler</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                        <th>1</th>
-                        <td>Antalya</td>
-                        <td>Yaz</td>
-                    </tr>
-                    <tr>
-                        <th>2</th>
-                        <td>Van</td>
-                        <td>4 Mevsim</td>
-                    </tr>
-                    <tr>
-                        <th>3</th>
-                        <td>Muğla</td>
-                        <td>İlkbahar - Yaz</td>
-                    </tr>
-                    </tbody>
-                </table>
+<div class="header">
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        Hoşgeldiniz..
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">×</span>
+        </button>
+    </div>
+
+    <div class="container-fluid">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg bg-light ">
+
+
+            <a class="navbar-brand" href="#">T-Hotel</a>
+
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">
+                            <div class="icon dripicons-align-center"></div>
+
+
+                            Ana Sayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" class="text-danger" href="#">Hakkımızda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" class="text-warning" href="#">Odalarımız</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Resimler</a>
+                    </li>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">İletişim</a>
+                    </li>
+                </ul>
+
+
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
             </div>
-            <div class="col">
-                <h2>Hakkımızda</h2>
-                <hr>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci amet debitis dolorem
-                    ducimus esse expedita explicabo fugiat harum libero magni maiores maxime nihil perferendis
-                    possimus qui quisquam reprehenderit repudiandae temporibus, ullam, velit vero voluptates.
-                </p>
+        </nav>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/hotel.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Türkiyenin En Kaliteli Oteline Hoşgeldiniz</h5>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Oda Türünü seçiniz</option>
+                    </select>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Yetişkin sayısı</option>
+                    </select>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Çocuk Sayısı</option>
+                    </select>
+                </div>
             </div>
-            <div class="col">
-                <h2>Sosyal Medya Hesaplarımız</h2>
-                <hr>
-                <i  class="bi bi-facebook"></i>
-                <i class="bi bi-instagram"></i>
-                <i class="bi bi-linkedin"></i>
-                <i class="bi bi-twitter"></i>
+        </div>
+    </div>
+</div>
+<div class="bg bg-secondary row">
+    <div class="col-lg-6">
+
+        <img src="img/hotelresmi.PNG">
+    </div>
+    <div class="col" style="margin-right: 100px" >
+        <h2 class="text-white col-lg-5">Otelimizin Tarihi</h2>
+        <p class="text-white col-lg-12">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis ea eum nemo numquam quos sint
+            voluptatibus voluptatum.
+            Doloremque exercitationem facere iusto molestiae quas quis quisquam. Alias distinctio dolor dolorum ea
+            fugit libero nihil obcaecati,
+            odit praesentium veniam. Ab amet debitis deleniti dignissimos excepturi minima nihil pariatur sequi sunt
+            veniam. Accusantium dolor dolorum eaque eius facilis
+            fugit impedit minima nesciunt quisquam, repellendus vero vitae voluptas. At consequuntur cum cumque,
+            debitis deserunt distinctio eius enim error eum excepturi fuga
+            hic iste iure nam nisi non nulla, numquam, omnis quam quas quasi quisquam
+            quos recusandae sapiente similique tempore ullam voluptatum! Dolorum excepturi, incidunt?
+        </p>
+
+        <div class="justify-content-center row">
+            <button href="#" class="btn btn-primary active " aria-current="page">Daha Fazla Bilgi</button>
+        </div>
+    </div>
+    <div  id="ust">
+        <div class="container">
+            <div  style="float: left ; ; margin: 10px;">
+                <div class="card" style="width: 30rem;">
+                    <div class="card-body" style="margin-bottom: 25px;">
+                        <h1 class="card-title" >Tek Kişilik Oda</h1>
+                        <p class="card-text" style="font-size: 11px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi cumque dolore fuga id itaque nihil omnis soluta veniam voluptate voluptatem! Amet cumque deleniti dolorum natus rem sed voluptatum. Totam, ut!</p>
+                        <hr>
+                        <h6 class="card-subtitle mb-2 text-muted" style="font-size: 9px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos qui asperoies dolorem, sed eveniet fugiat.</h6>
+                        <button type="button" class="btn btn-primary" style="width: 110px ;height: 30px; font-size: 11px ">Daha Fazla Bilgi</button>
+                    </div>
+                </div>
+            </div>
+            <div  style="float: left; margin: 10px;">
+                <div class="card" style="width: 30rem;">
+                    <div class="card-body" style="margin-bottom: 25px;">
+                        <h1 class="card-title" >Çift Kişilik Oda</h1>
+                        <p class="card-text" style="font-size: 11px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi cumque dolore fuga id itaque nihil omnis soluta veniam voluptate voluptatem! Amet cumque deleniti dolorum natus rem sed voluptatum. Totam, ut!</p>
+                        <hr>
+                        <h6 class="card-subtitle mb-2 text-muted" style="font-size: 9px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos qui asperoies dolorem, sed eveniet fugiat.</h6>
+                        <button type="button" class="btn btn-primary" style="width: 110px ;height: 30px; font-size: 11px ">Daha Fazla Bilgi</button>
+                    </div>
+                </div>
 
             </div>
         </div>
+        <div class="container">
+            <div  style="float: left ; margin: 10px;" >
+                <div class="card" style="width: 30rem;">
+                    <div class="card-body" style="margin-bottom: 25px;">
+                        <h1 class="card-title"> Aile Odası</h1>
+                        <p class="card-text" style="font-size: 11px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi cumque dolore fuga id itaque nihil omnis soluta veniam voluptate voluptatem! Amet cumque deleniti dolorum natus rem sed voluptatum. Totam, ut!</p>
+                        <hr>
+                        <h6 class="card-subtitle mb-2 text-muted" style="font-size: 9px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos qui asperoies dolorem, sed eveniet fugiat.</h6>
+                        <button type="button" class="btn btn-primary" style="width: 110px ;height: 30px; font-size: 11px ">Daha Fazla Bilgi</button>
+                    </div>
+                </div>
+
+            </div>
+            <div  style="float: left; margin: 10px;">
+                <div class="card" style="width: 30rem;">
+                    <div class="card-body" style="margin-bottom: 25px;">
+                        <h1 class="card-title" >Kral Dairesi</h1>
+                        <p class="card-text" style="font-size: 11px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi cumque dolore fuga id itaque nihil omnis soluta veniam voluptate voluptatem! Amet cumque deleniti dolorum natus rem sed voluptatum. Totam, ut!</p>
+                        <hr>
+                        <h6 class="card-subtitle mb-2 text-muted" style="font-size: 9px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos qui asperoies dolorem, sed eveniet fugiat.</h6>
+                        <button type="button" class="btn btn-primary" style="width: 110px ;height: 30px; font-size: 11px ">Daha Fazla Bilgi</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="card" style="margin-top: 30px;background-color: dimgray">
+        <div class="card-body">
+            <p style="text-align: center ; margin: 6px ; float: right ;margin-right: 30% ; margin-left: -250px;" class="center">Ahmet Sönmez</p>
+            <img src="img/laptop-user-1-1179329.png" style="width: 90px ;height: 90px ; float:right;" class="center">
+            <p style=" float: right ; margin-right: 13% ; margin-top: -30px ;font-size: 10px" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur atque corporis culpa cupiditate deleniti ducimus praesentium.</p>
+        </div>
+    </div>
+    <div class="card" style="margin-top: 30px;background-color: dimgray">
+        <div class="card-body">
+            <p style="text-align: center ; margin: 6px ; float: right ;margin-right: 30% ; margin-left: -250px;" class="center">Harun Sönmez</p>
+            <img src="img/laptop-user-1-1179329.png" style="width: 90px ;height: 90px ; float:right;" class="center">
+            <p style=" float: right ; margin-right: 13% ; margin-top: -30px ;font-size: 10px" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur atque corporis culpa cupiditate deleniti ducimus praesentium.</p>
+        </div>
+    </div>
+    <div>
+        <footer>
+            <div class="row bg-secondary" >
+                <div class="col">
+                    <h2>Otelimizin Şubeleri</h2>
+                    <hr>
+                    <table class="table bg-white" >
+                        <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Şubeler</th>
+                            <th scope="col">Çalıştığı Dönemler</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th>1</th>
+                            <td>Antalya</td>
+                            <td>Yaz</td>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <td>Van</td>
+                            <td>4 Mevsim</td>
+                        </tr>
+                        <tr>
+                            <th>3</th>
+                            <td>Muğla</td>
+                            <td>İlkbahar - Yaz</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col">
+                    <h2>Hakkımızda</h2>
+                    <hr>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci amet debitis dolorem
+                        ducimus esse expedita explicabo fugiat harum libero magni maiores maxime nihil perferendis
+                        possimus qui quisquam reprehenderit repudiandae temporibus, ullam, velit vero voluptates.
+                    </p>
+                </div>
+                <div class="col">
+                    <h2>Sosyal Medya Hesaplarımız</h2>
+                    <hr>
+                    <i  class="bi bi-facebook"></i>
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-linkedin"></i>
+                    <i class="bi bi-twitter"></i>
+
+                </div>
+            </div>
 
 
-    </footer>
-</div>
-
-
+        </footer>
+    </div>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
 
